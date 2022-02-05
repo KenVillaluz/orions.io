@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orions</title>
+    <link rel="stylesheet" 
+	href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+	+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="img/orionword.png" alt="" class="logo--img">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hotdog"></span>
+        </button>
+        <nav class="navi">
+            <ul class="navi--list">
+                <li class="navi--item"> <a href="#home" class="navi--link">Home</a></li>
+                <li class="navi--item"> <a href="#about" class="navi--link">About Me</a></li>
+                <li class="navi--item"> <a href="#services" class="navi--link">Services</a></li>
+                <li class="navi--item"> <a href="#portfolio" class="navi--link">My Portfolio</a></li>
+                <li class="navi--item"> <a href="#contacts" class="navi--link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section--title section--title--intro">
+            Hi, I am <strong>John Kenneth Villaluz</strong>
+        </h1>
+        <p class="section--title section--subtitle--intro">Aspiring front & back-end developer</p>
+        <img src="img/ken.jpg" alt="" class="intro--img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section--title section--title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Officia amet harum recusandae illum modi consequuntur 
+                et sunt odit iure ut, iusto, sapiente, qui earum voluptate 
+                facere quidem assumenda a! Voluptates.</p>
+            </div>
+
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Officia amet harum recusandae illum modi consequuntur 
+                et sunt odit iure ut, iusto, sapiente, qui earum voluptate 
+                facere quidem assumenda a! Voluptates.</p>
+            </div>
+
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Officia amet harum recusandae illum modi consequuntur 
+                et sunt odit iure ut, iusto, sapiente, qui earum voluptate 
+                facere quidem assumenda a! Voluptates.</p>
+            </div>
+        </div>
+
+        <a href="#portfolio" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section--title section--title--about">Who I am</h2>
+        <p class="section--title section--subtitle--about">College student taking Bachelor
+                of Science in Information System in University of Rizal System</p>
+
+        <div class="about-me--body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Officia amet harum recusandae illum modi consequuntur 
+            et sunt odit iure ut, iusto, sapiente, qui earum voluptate 
+            facere quidem assumenda a! Voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Officia amet harum recusandae illum modi consequuntur 
+            et sunt odit iure ut, iusto, sapiente, qui earum voluptate 
+            facere quidem assumenda a! Voluptates.</p>
+        </div>
+
+        <img src="img/ken2.jpg" alt="" class="about-me--img">
+    </section>
+
+    <section class="my-portfolio" id="portfolio">
+        <h2 class="section--title section--title--portfolio">Projects</h2>
+        <p class="section--title section--subtitle--portfolio">A Selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio Item 1 -->
+            <a href="#" class="portfolio--item">
+                <img src="img/backround2.jpg" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio Item 2 -->
+            <a href="#" class="portfolio--item">
+                <img src="img/backround2.jpg" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio Item 3 -->
+            <a href="#" class="portfolio--item">
+                <img src="img/backround2.jpg" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio Item 4 -->
+            <a href="#" class="portfolio--item">
+                <img src="img/backround2.jpg" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio Item 5 -->
+            <a href="#" class="portfolio--item">
+                <img src="img/backround2.jpg" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio Item 6 -->
+            <a href="#" class="portfolio--item">
+                <img src="img/backround2.jpg" alt="" class="portfolio--img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Message Me -->
+    <section>
+        <!-- Form Section Start -->
+        <div class="section--form" id="contacts">
+            <h1><span>Contact Me</span></h1>
+            <form method="post" class="forms">
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" type="message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form Section End -->
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:villaluzjohnkenneth224@gmail.com" class="footer--link">villaluzjohnkenneth224@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list--item">
+                <a class="social-list--link" href="https://www.facebook.com/chicKEN.Villaluz">
+                    <i class="fab fa-facebook"></i>  
+                </a>
+            </li>
+
+            <li class="social-list--item">
+                <a class="social-list--link" href="https://www.instagram.com/chickeeeeeeenn/?hl=en">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+
+            <li class="social-list--item">
+                <a class="social-list--link" href="https://www.linkedin.com/in/john-kenneth-villaluz-5aa396224/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list--item">
+                <a class="social-list--link" href="https://github.com/KenVillaluz">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright">
+            &copy: 2022 My Website Portfolio. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
